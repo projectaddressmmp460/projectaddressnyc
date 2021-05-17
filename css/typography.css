@@ -4,7 +4,11 @@ font-family: 'Georgia', serif; */
 #header{
 font-family: 'Georgia', serif;
 font-weight: bold;
+text-transform: uppercase;
 }
 #main{
 font-family: 'Nunito', sans-serif;
+}
+#footer{
+font-family: 'Georgia', serif;
 }
