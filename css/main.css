@@ -60,7 +60,7 @@ background-color: #751816;
 @media (max-width: 800px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
-
+    }
  .flex-container {
     flex-direction: column;
   }
