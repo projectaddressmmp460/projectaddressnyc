@@ -18,8 +18,12 @@ line-height: 1em;
 
 
 .photo {
-    width: 50%; 
-   margin: auto;
+    display: block;
+   width: 100%;
+   max-width: 500px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto; /*optional centering of image*/
+}
 
 }
 
