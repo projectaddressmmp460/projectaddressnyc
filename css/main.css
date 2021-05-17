@@ -21,9 +21,9 @@ line-height: 1em;
 }
 
 #photo {
-    width: auto;
-    height: auto;
-}
+    width: 100%;
+    height: 100%;
+       object-fit: cover;
 
 ul.topnav {
   list-style-type: none;
