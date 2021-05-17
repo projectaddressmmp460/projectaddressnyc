@@ -11,10 +11,12 @@ line-height: 10%;
 }
 
 .navtext{
-font-family: Nunito', sans-serif;
- font-weight: bold;
- text-transform: uppercase;
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
 }
+
+
 #main{
 font-family: 'Nunito', sans-serif;
 }
