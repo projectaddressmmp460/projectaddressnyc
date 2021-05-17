@@ -21,8 +21,8 @@ line-height: 1em;
 }
 
 #photo {
-    height:100%;
-    max-width: 200px;
+    height:auto;
+    max-width: 25px;
   object-fit: scale-down;
 }
 
