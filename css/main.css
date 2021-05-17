@@ -16,15 +16,10 @@ line-height: 1em;
   height: auto;
 }
 
-#test{
-width:20%;
-    height: auto;
-}
 
 #photo {
-    width:auto;
-    height: 100%;
-    object-fit: contain;
+    width: 20%;
+    height: auto;
 
 }
 
