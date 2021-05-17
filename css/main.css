@@ -18,8 +18,9 @@ line-height: 1em;
 
 
 .photo {
-   background-image:url('');
-    background-size:cover; 
+   background-image:url('css/images/image2vector.svg');
+    
+        background-size:cover; 
 }
 
 
