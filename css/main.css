@@ -26,9 +26,9 @@ ul.topnav li.right {float: right;}
 
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive
 */
-
+/*
 @media (min-width:601px) {
-  /*Anything above 600 pixels or desktops*/
+  Anything above 600 pixels or desktops
 
  img{
 max-width: 90%;
@@ -42,7 +42,7 @@ height: auto;
    letter-spacing: .1vw;
     word-spacing: .1vw;
 }
-
+*/
 
 
 
@@ -54,17 +54,29 @@ height: auto;
  }
    ul.topnav li.right, 
   ul.topnav li {float: none;}
-}  
+ 
    
 }
   .footer-item{
     justify-content: center;
     text-align: center;
     padding-top: 1%;
-}      
+
   
 }
 @media (max-width:400px){
   /* mobile phones*  */
   
- 
+  img{
+max-width: 75%;
+height: auto;
+ }
+   ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}  
+   
+  .footer-item{
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+}   
