@@ -21,9 +21,8 @@ line-height: 1em;
 }
 
 #photo {
-    height:auto;
-    max-width: 25px;
-  object-fit: scale-down;
+    width: 20%;
+    height: auto;
 }
 
 ul.topnav {
