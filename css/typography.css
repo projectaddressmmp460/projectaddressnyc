@@ -9,6 +9,12 @@ width: 25%;
 height: auto;
 line-height: 10%;   
 }
+
+.navtext{
+font-family: Nunito', sans-serif;
+ font-weight: bold;
+ text-transform: uppercase;
+}
 #main{
 font-family: 'Nunito', sans-serif;
 }
