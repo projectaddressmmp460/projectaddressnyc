@@ -57,6 +57,7 @@ flex-direction: row;
 
 .flex-item-left {
   flex: 40%;
+    padding: 10px;
   
 }
 
@@ -64,7 +65,7 @@ flex-direction: row;
   flex: 40%;
 background-color: #751816;
     fontsize: 100%;
-    position: right;
+    padding: 10px;
 
 
 }
