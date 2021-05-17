@@ -54,7 +54,7 @@ ul.topnav li.right {float: right;}
 
 .flex-container {
   display: flex;
-  flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flex-item-left {
