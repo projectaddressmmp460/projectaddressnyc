@@ -18,14 +18,13 @@ line-height: 1em;
 
 
 .photo {
-    display: block;
-   width: 100%;
-   max-width: 500px; /*actual image width*/
+   width: 20%;
+   
    height: auto; /* maintain aspect ratio*/
    margin: auto; /*optional centering of image*/
 }
 
-}
+
 
 
 ul.topnav {
