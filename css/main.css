@@ -21,7 +21,7 @@ line-height: 1em;
 }
 
 #photo {
-    width: 2.5%;
+    width: 100%;
     height: auto;
 }
 
@@ -57,15 +57,14 @@ flex-direction: row;
 }
 
 .flex-item-left {
-  flex: 50%;
+  flex: 30%;
     padding: 30px;
   
 }
 
 .flex-item-right {
-  flex: 50%;
+  flex: 30%;
 background-color: #751816;
-    fontsize: 100%;
     padding: 30px;
 
 
