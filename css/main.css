@@ -6,7 +6,7 @@ body {margin: 0;}
 */
 
 @media (min-width:601px) {
-  Anything above 600 pixels or desktops
+ /* Anything above 600 pixels or desktops */
 
  img{
 max-width: 90%;
