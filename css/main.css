@@ -4,6 +4,13 @@
 */
 body {margin: 0;}
 
+img {
+  width: 20%;
+  height: auto;
+}
+
+
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
