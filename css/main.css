@@ -27,7 +27,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #585858;
 }
 
 ul.topnav li {float: left;}
@@ -40,7 +40,7 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #585858;}
+ul.topnav li a:hover:not(.active) {background-color: #003049;}
 
 ul.topnav li a.active {background-color: #003049;}
 
