@@ -5,9 +5,8 @@ font-family: 'Georgia', serif; */
 font-family: 'Georgia', serif;
 font-weight: bold;
 text-transform: uppercase;
-width: 45%;
 height: auto;
-line-height: 20%;   
+padding-top: 5%;
 }
 
 nav {
