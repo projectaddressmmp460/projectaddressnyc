@@ -21,7 +21,7 @@ line-height: 1em;
 }
 
 #photo {
-    width: auto;
+    width: 5%;
     height: auto;
 }
 
@@ -62,8 +62,6 @@ ul.topnav li.right {float: right;}
 .flex-item-right {
   flex: 50%;
  padding:20px;
-    margin: 0;
-   background-color: #751816;   
 
 
 }
