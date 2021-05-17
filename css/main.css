@@ -2,12 +2,34 @@
 @media (min-width:601px) {
   /*Anything above 600 pixels or desktops*/
 
+ img{
+max-width: 90%;
+height: auto;
 }
+.footer-item{
+    justify-content: space-between;
+     margin-top: 2%;
+}    
+  body{
+   letter-spacing: .1vw;
+    word-spacing: .1vw;
+}
+
+
 
 
 @media (min-width:401px) and (max-width:600px){
     /* tablets*/
-
+ img{
+max-width: 75%;
+height: auto;
+}
+  .footer-item{
+    justify-content: center;
+    text-align: center;
+    padding-top: 1%;
+}      
+  
 }
 @media (max-width:400px){
   /* mobile phones*  */
