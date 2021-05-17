@@ -42,22 +42,21 @@ ul.topnav li a:hover:not(.active) {background-color:#BA2623;}
 ul.topnav li a.active {background-color: #DE741D;}
 ul.topnav li.right {float: right;}
 }
-.flex-container {
-  display: flex;
-  flex-direction: row;
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
 }
 
-.flex-item-left {
-  flex: 50%;
-   padding: 10px;
-    background-color: #003049;
-    
-}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 
-.flex-item-right {
-  flex: 50%;
- padding: 10px;
-background-color: #751816;
+    /*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_two_columns */
 }
 @media (max-width: 600px) {
   ul.topnav li.right, 
