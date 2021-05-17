@@ -21,8 +21,9 @@ line-height: 1em;
 }
 
 #photo {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    position: relative; 
 }
 
 ul.topnav {
@@ -57,12 +58,13 @@ flex-direction: row;
 }
 
 .flex-item-left {
-  flex: 25%;
+  flex: 50%;
+  
   
 }
 
 .flex-item-right {
-  flex: 25%;
+  flex: 50%;
 background-color: #751816;
     padding: 5px;
 
