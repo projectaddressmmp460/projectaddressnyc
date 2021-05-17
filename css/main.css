@@ -16,9 +16,9 @@ line-height: 1em;
   height: auto;
 }
 
-#homeless {
-    width:auto;
-    height: 100%;
+.homeless {
+    width:100%;
+    height: auto;
     
 
 }
