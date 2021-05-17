@@ -43,6 +43,11 @@ ul.topnav li a:hover:not(.active) {background-color:#BA2623;}
 ul.topnav li a.active {background-color: #DE741D;}
 ul.topnav li.right {float: right;}
 }
+* {
+  box-sizing: border-box;
+}
+
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
