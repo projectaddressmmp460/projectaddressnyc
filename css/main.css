@@ -57,10 +57,10 @@ ul.topnav li.right {float: right;}
  padding: 30px;
 background-color: #751816;
     
-@media screen and (max-width: 600px) {
+@media (max-width: 800px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
-}
+
  .flex-container {
     flex-direction: column;
   }
