@@ -1,25 +1,9 @@
-body {margin: 0;}
 
-}
 
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive
 */
+body {margin: 0;}
 
-@media (min-width:601px) {
- /* Anything above 600 pixels or desktops */
-
- img{
-max-width: 90%;
-height: auto;
-}
-.footer-item{
-    justify-content: space-between;
-     margin-top: 2%;
-}    
-  body{
-   letter-spacing: .1vw;
-    word-spacing: .1vw;
-}
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -43,46 +27,8 @@ ul.topnav li a:hover:not(.active) {background-color: #111;}
 ul.topnav li a.active {background-color: #4CAF50;}
 
 ul.topnav li.right {float: right;}
-  
-} 
-  
-@media (max-width:600px){
-  /* mobile phones*  */
-  
-  img{
-max-width: 75%;
-height: auto;
- }
-   ul.topnav li.right, 
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
   ul.topnav li {float: none;}
-}  
-   
-  .footer-item{
-    justify-content: center;
-    text-align: center;
-    padding-top: 1%;
-}   
-
-
-/*
-
-@media (min-width:401px) and (max-width:600px){
-    tablet
- img{
-max-width: 75%;
-height: auto;
- }
-   ul.topnav li.right, 
-  ul.topnav li {float: none;}
- 
-   
 }
-  .footer-item{
-    justify-content: center;
-    text-align: center;
-    padding-top: 1%;
-
- 
-}
-
-*/
