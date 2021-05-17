@@ -21,8 +21,8 @@ line-height: 1em;
 }
 
 #photo {
-    width:auto;
-    height: 100%;
+    width:100%;
+    height: auto;
 }
 
 ul.topnav {
@@ -56,12 +56,12 @@ ul.topnav li.right {float: right;}
 }
 
 .flex-item-left {
-  flex: 50%;
+  flex: 35%;
     padding: 10px;
 }
 
 .flex-item-right {
-  flex: 50%;
+  flex: 35%;
  padding: 10px;
 background-color: #751816;
 
