@@ -56,8 +56,8 @@ ul.topnav li.right {float: right;}
   flex: 50%;
  padding: 1px;
 background-color: #751816;
-}
-@media (max-width: 600px) {
+    
+@media screen and (max-width: 600px) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
