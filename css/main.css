@@ -42,12 +42,11 @@ height: auto;
    letter-spacing: .1vw;
     word-spacing: .1vw;
 }
-*/
 
-
+/*
 
 @media (min-width:401px) and (max-width:600px){
-    /* tablets*/
+    tablet
  img{
 max-width: 75%;
 height: auto;
@@ -62,9 +61,11 @@ height: auto;
     text-align: center;
     padding-top: 1%;
 
-  
+ 
 }
-@media (max-width:400px){
+
+*/
+@media (max-width:600px){
   /* mobile phones*  */
   
   img{
