@@ -59,14 +59,17 @@ ul.topnav li.right {float: right;}
 
 .flex-item-left {
   flex: 40%;
-    padding: 1px;
-    fontsize: 100%;
+   
+     margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .flex-item-right {
   flex: 40%;
  padding: 1px;
 background-color: #751816;
+    fontsize: 100%;
 
 
 }
