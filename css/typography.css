@@ -5,6 +5,8 @@ font-family: 'Georgia', serif; */
 font-family: 'Georgia', serif;
 font-weight: bold;
 text-transform: uppercase;
+width: 20%;
+height: auto;  
 }
 #main{
 font-family: 'Nunito', sans-serif;
