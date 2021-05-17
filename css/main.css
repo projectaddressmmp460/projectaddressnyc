@@ -4,14 +4,15 @@
 */
 body {margin: 0;}
 
-br {
-line-height: 1%;    
-}
 
 .wrapper {
 max-width: 80%;
     margin: 0 auto;
     padding: 15px 0;
+}
+
+br {
+line-height: 1em;    
 }
 
 .logo {
