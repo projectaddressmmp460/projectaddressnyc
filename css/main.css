@@ -59,6 +59,7 @@ flex-direction: row;
 
 .flex-item-left {
   flex: 50%;
+    padding: 30px;
   
 }
 
