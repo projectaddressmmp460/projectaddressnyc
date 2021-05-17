@@ -49,6 +49,7 @@ ul.topnav li a.active {background-color: #DE741D;}
 
 ul.topnav li.right {float: right;}
 
+}
 
 .flex-container {
   display: flex;
@@ -57,7 +58,6 @@ ul.topnav li.right {float: right;}
 
 .flex-item-left {
   flex: 50%;
-    padding: 1px;
 }
 
 .flex-item-right {
