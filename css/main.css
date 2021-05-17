@@ -51,6 +51,11 @@ height: auto;
  img{
 max-width: 75%;
 height: auto;
+ }
+   ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}  
+   
 }
   .footer-item{
     justify-content: center;
