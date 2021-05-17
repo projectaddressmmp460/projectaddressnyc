@@ -4,7 +4,7 @@
 */
 body {margin: 0;} 
 
-}
+
 .wrapper {
 max-width: 80%;
     margin: 0 auto;
@@ -21,7 +21,7 @@ line-height: 1em;
 }
 
 #photo {
-    width: 100%;
+    width: auto;
     height: auto;
 
 ul.topnav {
@@ -57,7 +57,6 @@ ul.topnav li.right {float: right;}
 
 .flex-item-left {
   flex: 50%;
-  padding: 5px;
   
 }
 
