@@ -22,7 +22,7 @@ line-height: 1em;
 
 #photo {
     width:auto;
-    height: auto;
+    height: 100%;
 }
 
 ul.topnav {
@@ -64,7 +64,7 @@ ul.topnav li.right {float: right;}
   flex: 50%;
  padding: 10px;
 background-color: #751816;
- border: 1px solid gray;
+
 
 }
 @media (max-width: 600px) {
