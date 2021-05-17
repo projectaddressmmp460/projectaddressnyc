@@ -52,16 +52,16 @@ ul.topnav li.right {float: right;}
 
 .flex-container {
   display: flex;
-  flex-wrap: wrap;
+flex-direction: row;
 }
 
 .flex-item-left {
-  flex: 50%;
+  flex: 40%;
   
 }
 
 .flex-item-right {
-  flex: 50%;
+  flex: 40%;
 background-color: #751816;
     fontsize: 100%;
     position: right;
