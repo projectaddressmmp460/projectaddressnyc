@@ -168,9 +168,10 @@ padding-left: 10%;
     font-size: 22px;
   }
 
+/*
 body {
   font-size: calc(22px + (22 - 16) * ((100vw - 600px) / (1600 - 600)));
-}
+} */
 
 #source{
   font-size: 3vw;
