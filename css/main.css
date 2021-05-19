@@ -55,3 +55,18 @@ ul.topnav li.right {float: right;}
 }
  
 }
+
+.card {
+    background-color:white;
+    border: 3px;
+    border-color: white;
+    padding:0px;
+    margin:0px;
+}
+
+.card-img-full {
+    position:inherit
+  width: 200px;
+  height: 200px;
+}
+
