@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+  <title>Project Address Donate Page</title>
+ <!--<link href="style.css" rel="stylesheet" type="text/css">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    
+
+  </head>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Color */
+
+/*    regular     dark 
+blue #003049     
+red  #D62A28     #A02A28
+orange #F57F20    #BD6219
+yellow #FBBE4A   #CF9B3C
+sand #EAE1B6     
+*/
+
+body{
+    background-color: gray;
+  }
+
+.header{
+  color: #D62A28;
+}
+
+#source{
+  color: #D62A28; 
+}
+
+h1{
+  color: #FBBE4A;
+}
+
+h2{
+color:  #A02A28;
+
+}
+
+#banner{
+  background-color: white;
+}
+
+#photo{
+  background-color: #A02A28;
+}
+
+#stats{
+  background-color: #001724;
+  color: white;
+}
+
+#about{
+  background-color: #EAE1B6 ;
+  color: #001724;
+}
+
+#footer{
+  background-color: lightgray;
+  color: #001724;
+}
+
+
+
+/* Typography*/
+
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Georgia', serif; */
+
+h1 {
+font-family: 'Raleway', sans-serif;
+ font-weight: bold;
+
+}
+
+h2{
+ font-family: 'Raleway', sans-serif;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+
+.header{
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 1.35vw;
+
+}
+
+
+#nav {
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+
+
+}
+
+
+body {
+font-family: 'Nunito', sans-serif;
+}
+
+#footer{
+font-family: 'Georgia', serif;
+font-weight: thin;
+font-size: 1.5vw;
+font-weight: bold;
+}
+
+#source{
+font-family: 'Georgia', serif;
+font-size: 1vw;
+font-weight: bold;
+}
+
+
+
+/* Main */
+
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003049;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #D62A28 ;}
+
+ul.topnav li a.active {background-color: #F57F20;}
+
+ul.topnav li.right {float: right;}
+
+}
+
+html {
+  font-size: 10px;
+}
+  
+
+body {
+  font-size: calc(10px + (18 - 9) * ((100vw - 600px) / (1600 - 600)));
+  line-height: 1.5em;
+}
+
+.homeless{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ /* padding: 0%;
+  margin: 0%;
+  border: 0%; */ 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+
+   /* padding: 0%;
+    margin: 0%;
+    border: 0%; */
+  }
+
+
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive*/
+
+
+
+ @media (min-width:601px) {
+  /*Anything above 600 pixels like tablet or desktop*/
+   
+
+  /*Desktop Grid*/
+  
+
+  .row{
+    background-color: white;
+    height: auto;
+  /*  border: 1px dotted black;
+    padding: 0%; */
+
+
+
+  }
+
+
+
+   #container{
+    width:  90%;
+    height: auto;
+    margin: 0 auto;
+   
+    display: grid;
+    /*grid-template-rows: 4em 10em 4em; */
+    grid-template-rows: 22% 3.5% 35% 30% 15%;
+    grid-template-columns: repeat(11, 1fr);
+    /*gap: 10px 0; */
+    
+}
+  
+#banner{
+  grid-row:1;
+  grid-column: 1/ span 12;
+  padding: 30px;
+
+
+    
+}
+
+#nav{
+grid-row: 2;
+grid-column: 1/span 12;
+
+}
+
+#photo{
+grid-row: 3;
+grid-column: 1/span 5;
+padding: 10%;
+}
+
+#stats{
+grid-row: 3;
+grid-column: 6/span 12;
+padding: 10%;
+}
+
+#about{
+  grid-row: 4;
+  grid-column: 1/span 12;
+  padding: 10%;
+ 
+}
+
+
+#footer{
+  grid-row: 5;
+  grid-column: 1/span 12;
+padding: 25px;
+padding-left: 10%;
+
+}
+
+
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+
+  .homeless{
+  max-width: 125%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+ html {
+    font-size: 22px;
+  }
+
+body {
+  font-size: calc(22px + (22 - 16) * ((100vw - 600px) / (1600 - 600)));
+}
+
+#source{
+  font-size: 3vw;
+
+}
+#container{
+    display:grid;
+    grid-template-rows: 12% 15% 15% 25% 30% 15%;
+  }
+
+.header{
+  font-size: 4vw;
+margin-left: 20%;
+margin-right: 20%;
+align-content: center;
+} 
+
+.logo{
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+#banner{
+  grid-row:1;
+
+
+    
+}
+
+#nav{
+grid-row: 2;
+
+}
+
+#photo{
+grid-row: 3;
+margin-left: auto;
+margin-right: auto;
+}
+
+#stats{
+grid-row: 4;
+padding: 5px;
+}
+
+#about{
+  grid-row: 5;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+#footer{
+  grid-row: 6;
+padding-top: 20%;
+padding-left: 5%;
+padding-right: 5%;
+font-size: 4.5vw;
+
+}
+
+
+
+
+
+
+  
+}
+
+
+</style>
+
+<body>
+
+<div id="container">
+<div class="row" id="banner">
+  
+  <div class="logo"><img src="css/images/logoblue.svg"></div>
+ <div class="header">Help the Homeless Now</div>
+
+</div>
+<div class="row" id="nav">   
+
+<ul class="topnav">
+  <li><a class="active" href="#home">Get Involved</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+   <li><a href="index.hmtl">Home</a></li>
+<!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive-->
+  
+</ul>
+
+
+
+ </div>
+<div class="row" id="photo">
+  <div class="homeless"><img src="css/images/homel6.png"></div></div> 
+
+<div class="row" id="stats"> 
+
+  <h1>In NYC:</h1>
+  An average of 92,091 people are homeless on any given night in 2019. Almost 5 out of 1000 people are homeless. Between 2007-2019 the homelesness population increased by 47%.
+   <div id="source"><p>REFERENCE: The US Department of Housing and Urban Development, US Census Bureau.</p></div> 
+   
+
+  <!--Grid container tag--></div> 
+
+<div class="row" id="about"><h2>Our Mission:</h2> 
+  <p>Our mission at <em>Project Address</em> is to connect organizations serving NYC’s homeless community with volunteers and donors. Our campaign builds awareness around the issue, and mobilizes young people to demand systemic change. We hope to inspire you to either volunteer your time at established organizations, or to donate  in order to keep these organizations running.</p>
+
+
+</div>
+
+
+<div class="row" id="footer">
+<!--<hr style="height:10px; visibility:hidden;" />
+
+  <hr>-->
+
+
+            Project Address ©  All rights reserved
+
+           </div>
+          
+
+</div>
+
+  
+
+</body>
+
+
+
+</html>
