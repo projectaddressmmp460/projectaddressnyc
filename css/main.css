@@ -55,3 +55,12 @@ ul.topnav li.right {float: right;}
 }
  
 }
+
+.card {
+    background:f57f20;
+}
+
+.card-img-full {
+  width: 200px;
+  height: 200px;
+}
