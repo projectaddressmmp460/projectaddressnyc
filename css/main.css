@@ -35,7 +35,15 @@ ul.topnav li.right {float: right;}
 
 }
 
+html {
+  font-size: 10px;
+}
+  
 
+body {
+  font-size: calc(10px + (18 - 9) * ((100vw - 600px) / (1600 - 600)));
+  line-height: 1.5em;
+}
 
 .homeless{
   max-width: 100%;
@@ -68,17 +76,6 @@ img {
  @media (min-width:601px) {
   /*Anything above 600 pixels like tablet or desktop*/
    
-
-html {
-  font-size: 10px;
-}
-  
-
-body {
-  font-size: calc(10px + (18 - 9) * ((100vw - 600px) / (1600 - 600)));
-  line-height: 1.5em;
-}
-
 
   /*Desktop Grid*/
   
