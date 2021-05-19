@@ -1,29 +1,56 @@
+/* Typography*/
+
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
 /*font-family: 'Nunito', sans-serif;
 font-family: 'Georgia', serif; */
 
+h1 {
+font-family: 'Raleway', sans-serif;
+ font-weight: bold;
+
+}
+
+h2{
+ font-family: 'Raleway', sans-serif;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+
 .header{
-font-family: 'Georgia', serif;
+font-family: 'Raleway', sans-serif;
 font-weight: bold;
 text-transform: uppercase;
-height: auto;
+font-size: 1.35vw;
 
 }
 
-nav {
+
+#nav {
 font-family: 'Nunito', sans-serif;
 font-weight: bold;
 text-transform: uppercase;
+
+
 }
 
 
-#main{
+body {
 font-family: 'Nunito', sans-serif;
 }
 
-footer{
+#footer{
 font-family: 'Georgia', serif;
+font-weight: thin;
+font-size: 1.5vw;
+font-weight: bold;
 }
 
 #source{
 font-family: 'Georgia', serif;
+font-size: 1vw;
+font-weight: bold;
 }
+

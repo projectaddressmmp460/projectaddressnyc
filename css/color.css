@@ -1,8 +1,55 @@
 
-#boxfont{
-    color: #FBBE4A; 
+/* Color */
+
+/*    regular     dark 
+blue #003049     
+red  #D62A28     #A02A28
+orange #F57F20    #BD6219
+yellow #FBBE4A   #CF9B3C
+sand #EAE1B6     
+*/
+
+body{
+    background-color: gray;
+  }
+
+.header{
+  color: #D62A28;
 }
 
 #source{
-    color: white;
+  color: #D62A28; 
 }
+
+h1{
+  color: #FBBE4A;
+}
+
+h2{
+color:  #A02A28;
+
+}
+
+#banner{
+  background-color: white;
+}
+
+#photo{
+  background-color: #A02A28;
+}
+
+#stats{
+  background-color: #001724;
+  color: white;
+}
+
+#about{
+  background-color: #EAE1B6 ;
+  color: #001724;
+}
+
+#footer{
+  background-color: lightgray;
+  color: #001724;
+}
+
